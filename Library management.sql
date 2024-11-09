@@ -196,7 +196,7 @@ FROM Employee
 GROUP BY Branch_No;
 
 
--- Display the name of customers who have issued books in the month of j 2023
+-- Display the name of customers who have issued books in the month of june 2023
 SELECT DISTINCT C.Customer_name 
 FROM Customer C 
 JOIN IssueStatus I ON C.Customer_Id = I.Issued_cust 
